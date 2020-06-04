@@ -9,3 +9,4 @@ flights.yaml
 flights2nc.py
 notebooks/.ipynb_checkpoints/
 reports/
+*.html
