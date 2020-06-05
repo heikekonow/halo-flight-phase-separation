@@ -27,22 +27,23 @@ segments:
 - kinds:
   - circle
   name: Circle 1
-  irregularities: ''
+  irregularities:
+  - Circle is  363.52 deg to accomodate all 12 dropsondes
   segment_id: HALO-0122_c1
   start: 2020-01-22 15:17:17
-  end: 2020-01-22 16:12:36
-  good_dropsondes: 11
+  end: 2020-01-22 16:13:05
+  good_dropsondes: 12
 - kinds:
   - circle_break
   name: Break between circle 1 and 2
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_cb1
-  start: 2020-01-22 16:12:36
+  start: 2020-01-22 16:13:05
   end: 2020-01-22 16:30:19
 - kinds:
   - circle
   name: Circle 2
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_c2
   start: 2020-01-22 16:30:19
   end: 2020-01-22 17:26:44
@@ -50,14 +51,14 @@ segments:
 - kinds:
   - circle_break
   name: Break between circle 2 and 3
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_cb2
   start: 2020-01-22 17:26:44
   end: 2020-01-22 17:42:08
 - kinds:
   - circle
   name: Circle 3
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_c3
   start: 2020-01-22 17:42:08
   end: 2020-01-22 18:38:57
@@ -65,28 +66,28 @@ segments:
 - kinds:
   - baccardi_calibration
   name: Baccardi calibration
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_bc1
   start: 2020-01-22 18:54:07
   end: 2020-01-22 19:08:55
 - kinds:
   - straight_leg
   name: Leg 1 above cirrus
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_sl1
   start: 2020-01-22 19:08:55
   end: 2020-01-22 19:18:35
 - kinds:
   - straight_leg
   name: Leg 2 below cirrus
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_sl2
   start: 2020-01-22 19:25:59
   end: 2020-01-22 19:33:01
 - kinds:
   - circle
   name: Circle 4
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_c4
   start: 2020-01-22 19:44:09
   end: 2020-01-22 20:43:22
@@ -94,14 +95,14 @@ segments:
 - kinds:
   - circle_break
   name: Break between circle 4 and 5
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_cb3
   start: 2020-01-22 20:43:22
   end: 2020-01-22 21:00:09
 - kinds:
   - circle
   name: Circle 5
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_c5
   start: 2020-01-22 21:00:09
   end: 2020-01-22 21:59:46
@@ -109,7 +110,8 @@ segments:
 - kinds:
   - circle
   name: Circle 6
-  irregularities: Circle is only 357.13 deg
+  irregularities:
+  - Circle is only 357.13 deg
   segment_id: HALO-0122_c6
   start: 2020-01-22 21:58:47
   end: 2020-01-22 23:00:32
@@ -117,30 +119,30 @@ segments:
 - kinds:
   - straight_leg
   name: Leg 3 over R/V Meteor
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_sl3
   start: 2020-01-22 23:01:37
   end: 2020-01-22 23:18:07
 - kinds:
   - lidar_leg
   name: Lidar leg
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_ll1
   start: 2020-01-22 23:25:01
-  end: 2020-01-22 16:53:07
+  end: 2020-01-22 23:40:59
 - kinds:
   - circling
   name: Circling 1
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_o1
   start: 2020-01-22 15:17:17
   end: 2020-01-22 18:38:57
-  good_dropsondes: null
+  good_dropsondes: 35
 - kinds:
   - circling
   name: Circling 2
-  irregularities: ''
+  irregularities: []
   segment_id: HALO-0122_o2
-  start: 2020-01-22 19:34:31
+  start: 2020-01-22 19:44:09
   end: 2020-01-22 23:00:32
-  good_dropsondes: null
+  good_dropsondes: 34
