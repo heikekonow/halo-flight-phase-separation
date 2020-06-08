@@ -6,6 +6,10 @@ contacts:
   email: marc.prange@uni-hamburg.de
   tags:
   - dataset creator
+- name: Heike Konow
+  email: heike.konow@uni-hamburg.de
+  tags:
+  - dataset creator
 - name: Silke Gross
   email: silke.gross@dlr.de
   tags:
@@ -39,8 +43,8 @@ segments:
   name: Super curtain (from NTAS, over ships, to circle center)
   irregularities: []
   segment_id: HALO-0119_sl1
-  start: 2020-01-19 16:55:16
-  end: 2020-01-19 17:22:00
+  start: 2020-01-19 16:16:35
+  end: 2020-01-19 17:23:50
 - kinds:
   - circle
   name: Circle 1
@@ -48,13 +52,13 @@ segments:
   - Start of circle directly with first drop, roll angle around 4 deg in beginning
   segment_id: HALO-0119_c1
   start: 2020-01-19 17:33:26
-  end: 2020-01-19 18:24:13
+  end: 2020-01-19 18:24:15
   good_dropsondes: 11
 - kinds:
   - circling
   name: Circling
   irregularities:
-  - Start of circling directly with first drop
+  - Start of circling directly with first drop, roll angle around 4 deg in beginning
   segment_id: HALO-0119_o1
   start: 2020-01-19 17:33:26
   end: 2020-01-19 18:25:31

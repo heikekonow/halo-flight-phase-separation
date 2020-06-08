@@ -5,7 +5,12 @@ contacts:
 - name: Marc Prange
   email: marc.prange@uni-hamburg.de
   tags:
-  - dataset creator
+  - lc
+  - dc
+- name: Heike Konow
+  email: heike.konow@uni-hamburg.de
+  tags:
+  - dc
 - name: Bjorn Stevens
   email: bjorn.stevens@mpimet.mpg.de
   tags:
@@ -28,68 +33,69 @@ segments:
   - circle
   name: Circle 1
   irregularities:
-  - Circle is  363.52 deg to accomodate all 12 dropsondes
+  - Circle starts 30 s before first launch to include the last sonde
   segment_id: HALO-0122_c1
-  start: 2020-01-22 15:17:17
-  end: 2020-01-22 16:13:05
+  start: 2020-01-22 15:17:48
+  end: 2020-01-22 16:13:04
   good_dropsondes: 12
 - kinds:
   - circle_break
   name: Break between circle 1 and 2
   irregularities: []
   segment_id: HALO-0122_cb1
-  start: 2020-01-22 16:13:05
-  end: 2020-01-22 16:30:19
+  start: 2020-01-22 16:13:04
+  end: 2020-01-22 16:30:20
 - kinds:
   - circle
   name: Circle 2
   irregularities: []
   segment_id: HALO-0122_c2
-  start: 2020-01-22 16:30:19
-  end: 2020-01-22 17:26:44
+  start: 2020-01-22 16:30:20
+  end: 2020-01-22 17:26:52
   good_dropsondes: 12
 - kinds:
   - circle_break
   name: Break between circle 2 and 3
   irregularities: []
   segment_id: HALO-0122_cb2
-  start: 2020-01-22 17:26:44
-  end: 2020-01-22 17:42:08
+  start: 2020-01-22 17:26:52
+  end: 2020-01-22 17:41:58
 - kinds:
   - circle
   name: Circle 3
-  irregularities: []
+  irregularities:
+  - Circle starts 70 s before first launch to avoid pitch change in end of circle
   segment_id: HALO-0122_c3
-  start: 2020-01-22 17:42:08
-  end: 2020-01-22 18:38:57
+  start: 2020-01-22 17:41:58
+  end: 2020-01-22 18:38:44
   good_dropsondes: 11
 - kinds:
   - baccardi_calibration
   name: Baccardi calibration
   irregularities: []
   segment_id: HALO-0122_bc1
-  start: 2020-01-22 18:54:07
-  end: 2020-01-22 19:08:55
+  start: 2020-01-22 18:56:46
+  end: 2020-01-22 19:12:00
 - kinds:
   - straight_leg
   name: Leg 1 above cirrus
   irregularities: []
   segment_id: HALO-0122_sl1
-  start: 2020-01-22 19:08:55
-  end: 2020-01-22 19:18:35
+  start: 2020-01-22 19:08:05
+  end: 2020-01-22 19:18:38
 - kinds:
   - straight_leg
   name: Leg 2 below cirrus
   irregularities: []
   segment_id: HALO-0122_sl2
-  start: 2020-01-22 19:25:59
-  end: 2020-01-22 19:33:01
+  start: 2020-01-22 19:25:42
+  end: 2020-01-22 19:33:11
 - kinds:
   - circle
   name: Circle 4
   irregularities: []
   segment_id: HALO-0122_c4
-  start: 2020-01-22 19:44:09
+  start: 2020-01-22 19:44:10
   end: 2020-01-22 20:43:22
   good_dropsondes: 12
 - kinds:
@@ -98,22 +104,23 @@ segments:
   irregularities: []
   segment_id: HALO-0122_cb3
   start: 2020-01-22 20:43:22
-  end: 2020-01-22 21:00:09
+  end: 2020-01-22 20:59:01
 - kinds:
   - circle
   name: Circle 5
-  irregularities: []
+  irregularities:
+  - Circle starts earlier to accomodate almost complete 6th circle right afterwards
   segment_id: HALO-0122_c5
-  start: 2020-01-22 21:00:09
-  end: 2020-01-22 21:59:46
+  start: 2020-01-22 20:59:01
+  end: 2020-01-22 21:58:36
   good_dropsondes: 11
 - kinds:
   - circle
   name: Circle 6
   irregularities:
-  - Circle is only 357.13 deg
+  - Circle is only 358 deg
   segment_id: HALO-0122_c6
-  start: 2020-01-22 21:58:47
+  start: 2020-01-22 21:58:36
   end: 2020-01-22 23:00:32
   good_dropsondes: 11
 - kinds:
@@ -129,20 +136,20 @@ segments:
   irregularities: []
   segment_id: HALO-0122_ll1
   start: 2020-01-22 23:25:01
-  end: 2020-01-22 23:40:59
+  end: 2020-01-22 23:46:53
 - kinds:
   - circling
   name: Circling 1
   irregularities: []
   segment_id: HALO-0122_o1
-  start: 2020-01-22 15:17:17
-  end: 2020-01-22 18:38:57
+  start: 2020-01-22 15:17:48
+  end: 2020-01-22 18:38:44
   good_dropsondes: 35
 - kinds:
   - circling
   name: Circling 2
   irregularities: []
   segment_id: HALO-0122_o2
-  start: 2020-01-22 19:44:09
+  start: 2020-01-22 19:44:10
   end: 2020-01-22 23:00:32
   good_dropsondes: 34
