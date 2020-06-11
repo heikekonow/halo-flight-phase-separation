@@ -110,7 +110,7 @@ segments:
   - circle
   name: Circle 5
   irregularities:
-  - Circle starts earlier to accomodate almost complete 6th circle right afterwards
+  - Circle starts earlier to accomodate complete 6th circle right afterwards
   segment_id: HALO-0122_c5
   start: 2020-01-22 20:59:01
   end: 2020-01-22 21:58:36
@@ -118,8 +118,7 @@ segments:
 - kinds:
   - circle
   name: Circle 6
-  irregularities:
-  - Circle is only 358 deg
+  irregularities: []
   segment_id: HALO-0122_c6
   start: 2020-01-22 21:58:36
   end: 2020-01-22 23:00:32
